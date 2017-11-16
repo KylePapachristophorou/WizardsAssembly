@@ -1,0 +1,133 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* navigation hover and active effects 
+nav ul a:hover {
+   /* background-color: rgba(0, 0, 255, 0.2); 
+   background-color: #80d8ff;
+
+}
+*/
+@media(max-width:568px){
+  #papafoot, .img1, {
+    background-attachment:scroll;
+  }
+}
+.pnav{
+font-family: 'Inknut Antiqua', serif;
+}
+.phead {
+font-family: 'Berkshire Swash', cursive;
+}
+
+.pfont {
+font-family: 'Inknut Antiqua', serif;
+}
+
+
+#papafoot {
+    background-image: url(images/index/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  position:relative;
+  opacity:0.90;
+  background-position:top;
+  background-attachment:fixed;
+}
+
+.tabs .indicator{
+    background-color: #1976d2;
+}
+
+#dropdown1, #dropdown2, #dropdown3, #dropdown4, #dropdown5, #dropdown0 {
+    margin-top: 68px;
+    text-align: center;
+    
+}
+
+.tc {
+    text-align: center;
+}
+
+#kyleactive {
+    background: #40c4ff;
+    color: white;
+
+}
+
+
+.indicators: hover {
+  margin:100px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #cca92c;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;
+}
+
+.papabr{
+    border-radius: 50px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #000;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.papafontsize {
+    font-size: 50px;
+}
