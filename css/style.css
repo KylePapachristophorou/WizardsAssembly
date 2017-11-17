@@ -56,11 +56,15 @@ font-family: 'Inknut Antiqua', serif;
 }
 
 #kyleactive {
-    background: #40c4ff;
+    background: #1976d2;
     color: white;
 
 }
 
+
+.mt10 {
+    margin-top: 10px;
+}
 
 .indicators: hover {
   margin:100px;
